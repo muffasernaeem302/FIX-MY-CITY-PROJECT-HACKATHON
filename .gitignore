@@ -1,0 +1,58 @@
+# Environment - NEVER commit these
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads / storage
+backend/var/
+var/
+uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Alembic
+backend/alembic/versions/*.py.bak
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+frontend/coverage/
+
+# Docs build
+docs/_build/
